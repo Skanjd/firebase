@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Boom</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- Just an image -->
+     <nav class="navbarnavbar-lightbg-light">
+         <a class="navbar-brand" href="#">
+           <img src="img/7.png" width="30" height="30" alt="">
+         </a>
+       </nav>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+               
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#" href="courses.html">COURSES</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="contact.html"   >
+                         CONTACT
+                       </a>
+                     </li>
+               </nav>
+       <div class="cover">
+           <div class="contact">
+               <h1>Contact</h1>
+           </div>
+       </div>
+    <br>
+   <br>
+    <br>
+  
+    <form onsubmit="submitform()">
+         <center> <div class="yn"><label> Your Name : </label>
+            <br>
+            <input type="text" placeholder="Your name" id="name"></div></center>
+        <br>
+        <center>
+        <div class="yn"><label>Track : </label></div>
+               <br>
+                    <select id="track">
+                    <option>WEB</option>
+                    <option>GAME</option>
+                    <option>AI</option>
+                </select>
+          
+        </center>
+        <br>
+ 
+        <center> <div class="yn"><label> Email Adress : </label></div>
+        <br>
+ 
+         <input type="text" placeholder="Name@exemple.com" id="email">
+        <br>
+ 
+        <div class="yn"><label> Phone Number : </label></div>
+        
+        <br>
+   
+        <input type="text" placeholder="Your phone number" id="phone">
+        <br>
+ <br>
+    
+
+ <input class="submit" value="submit" type="submit">
+    </center></form> 
+  </body> 
+  <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase.js"></script>
+  <script src="js/main.js"></script>
+
+</html>
